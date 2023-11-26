@@ -10,7 +10,6 @@ import {
 import { SignOutButton, useUser } from "@clerk/clerk-react";
 import { DropdownMenuSeparator } from "@radix-ui/react-dropdown-menu";
 import { ChevronsLeftRight } from "lucide-react";
-
 const UserItem = () => {
   const { user } = useUser();
   return (
